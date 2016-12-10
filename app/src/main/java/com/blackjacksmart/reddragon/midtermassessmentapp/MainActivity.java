@@ -18,6 +18,12 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/** Rafat Khandaker     12/10/2016
+ *
+ *           My set up is correct, except my JSON data is not parsing, recieving zero list size.. I
+ *           Believe it's because the server is storing the json as a text file format
+ * **/
+
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
@@ -63,10 +69,11 @@ public class MainActivity extends AppCompatActivity {
                     Data result = response.body();
                     Log.d("ON RESPONSE: ", "" + result.getCount());
                     Log.d("ON RESPONSE: ", "" +result.getSize());
+
+
 //                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getUsername());
 //                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getProfileBackground());
 //                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getLiked());
-
 
 
 //                    dataRecords = (List<Data>) result;
