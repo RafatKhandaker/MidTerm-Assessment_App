@@ -12,39 +12,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d8adafd89497647408c299466039849bfa6d3f58">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b15d6cded5a563eecc50dd9cc0029a6c770d7bcd/classes.dex" />
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_af6bf8bcaba7dce5f5099d2fa7bf15340b02d415/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f0edfa6dfa037b467987dca1772de62c1c61eddd/classes.dex" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_4027cb9c75ee6450d37c84b9939657f6504b70e3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_3a8e63f34c4ad66820c65d9943fec25cf02a87c9/classes.dex" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8cd1e6fd3ebffab518cd410d61a02736b432434b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,6 +57,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_209a4298842b90d47cc984409bf76f79b04c8b64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -75,39 +75,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_c385f16d9283c2a1819af12a072f9a7decfe7730/classes.dex" />
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_c6f07096da7e5bdd174f6aa2c0f87f9ec35fd58e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_53b3a5dd388b112aa36f53bc5e44bcffd3fa863d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_6f7fc4b433fb015bf85ca1fb20042ecfa13508ba/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_f861c58e07f34654fa5973c1d530b51af18cc0e5/classes.dex" />
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_f4da9425cbd9e50bf11869fbf70011451b9e5eb6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -117,15 +99,6 @@
         revision="25.0.1"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_5cb62e58b677bc9fce91b1d6f3312211946761a2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,21 +120,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_3ba7c9a7163f682a35c026125636db33a9f3ce8d/classes.dex" />
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_ee616dd202922b50e87b3bdbb472b12bc7e34ddb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_071f8b71ca4b6ff61843b3e104358aff0c4aad97/classes.dex" />
+        sha1="c60a90a408017da3493d03973f233a0e3dd68b53">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cfaeee2319a8a70edc98c2dbd63b87ab6a03c391/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -171,6 +144,15 @@
         revision="25.0.1"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_b06cd31a7068ea7752f0afcfba6002b36769ed5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_785334f98e44d7da6950d8a309cce1e684cdea8a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -201,6 +183,168 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_62f73414b72e65c1570da28745d82eb09590b1c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_1287c548b9fd61aaa774795ec8e3c89c2be3ec47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d8adafd89497647408c299466039849bfa6d3f58">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b15d6cded5a563eecc50dd9cc0029a6c770d7bcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_dc5ae657626daf2ff7fc3b2a1c779f4f4e65b8d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f0edfa6dfa037b467987dca1772de62c1c61eddd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f3727eab07c74e59c72644cf14a73111108e0243/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_3a8e63f34c4ad66820c65d9943fec25cf02a87c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_c385f16d9283c2a1819af12a072f9a7decfe7730/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_53b3a5dd388b112aa36f53bc5e44bcffd3fa863d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_f861c58e07f34654fa5973c1d530b51af18cc0e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_6f7fc4b433fb015bf85ca1fb20042ecfa13508ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_3ba7c9a7163f682a35c026125636db33a9f3ce8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_071f8b71ca4b6ff61843b3e104358aff0c4aad97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_6b21079f205f6ee4453f0fd77720eed8e0d41da1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_10ebdd22e9c827ce054f4414955e7e00856e2025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_74d5d4f17fb5427530e80540a3a7d67314b11710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -210,12 +354,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_62f73414b72e65c1570da28745d82eb09590b1c7/classes.dex" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_12975b89639c671b4208f8dd587b2b111c3876ea/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,12 +372,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_ebb7b689258efe8901cdc9233e990af097447d48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_f242d753eb59e1afc5de793f1bc0100441395e7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_38d1aa3691193aefabd63890bb1cfb50fcd84cba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cd25bcd775a145cbf6d955c8e2651d4037d1eac6">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/MidTermAssessmentApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3d1d37e78e9fec95cfe5f54b0544bca2f3939c86/classes.dex" />
     </item>
 
 </items>

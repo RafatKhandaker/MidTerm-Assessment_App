@@ -1,4 +1,4 @@
-package com.blackjacksmart.reddragon.midtermassessmentapp;
+package com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS;
 
 /**
  * Created by RedDragon on 12/10/16.
