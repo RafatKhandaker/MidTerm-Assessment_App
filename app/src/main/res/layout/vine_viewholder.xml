@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="#FFF899"
-            android:id="@+id/times_title_textview"
+            android:id="@+id/vines_title_textview"
             android:text="VINE DATA"
             android:textSize="22dp"
             android:layout_alignParentTop="true"
@@ -35,15 +35,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/liked_textview"
+            android:text="liked data goes here"
             android:textColor="#FFFFFF"
             android:textSize="15dp"
-            android:layout_below="@id/times_title_textview"
+            android:layout_below="@id/vines_title_textview"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/username_textview"
+            android:text="username goes here"
             android:textColor="#AAAAAA"
             android:textSize="20dp"
             android:textAlignment="gravity"
