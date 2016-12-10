@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.VinePOJO;
+import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.Data;
 import com.blackjacksmart.reddragon.midtermassessmentapp.network.VineService;
 import com.blackjacksmart.reddragon.midtermassessmentapp.recycler.RecyclerAdapter;
 
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     RecyclerView.Adapter adapter;
 
+    public static List<Data> dataRecords;
     public static List<Object> dataLiked;
     public static List<Object> dataUsername;
     public static List<Object> dataProfileBackground;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initiateRetrofit();
     }
+
+//-------------------------------RECYCLER-----------------------------------------------------------
 
     private void initiateRecyclerView() {
 
@@ -47,25 +50,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void initiateRetrofit() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://vine.co/api/timelines/")
+                .baseUrl("https://vine.co/api/timelines/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         VineService service = retrofit.create(VineService.class);
-        Call<VinePOJO.Data> getService = service.getVineJSON();
+        Call<Data> getService = service.getVineJSON();
 
-        getService.enqueue(new Callback<VinePOJO.Data>() {
+        getService.enqueue(new Callback<Data>() {
             @Override
-            public void onResponse(Call<VinePOJO.Data> call, Response<VinePOJO.Data> response) {
+            public void onResponse(Call<Data> call, Response<Data> response) {
                 if (response.isSuccessful()) {
-                    VinePOJO.Data result = response.body();
-                    Log.d("ON RESPONSE: ", "" +response.body());
+                    Data result = response.body();
+                    Log.d("ON RESPONSE: ", "" + result.getCount());
+                    Log.d("ON RESPONSE: ", "" +result.getSize());
 
-//                    List<VinePOJO.Data> records = result;
+//                    dataRecords = (List<Data>) result;
 
 //                    for (int i = 0; i < records.size(); i++) {
-//                        dataLiked.add(result.getData().getRecords().get(i).getLiked());
-//                        dataUsername.add(response.body().getData().getRecords().get(i).getUsername());
-//                        dataProfileBackground.add(response.body().getData().getRecords().get(i)
+//                        dataLiked.add(result.getRecords().get(i).getLiked());
+//                        dataUsername.add(result.getRecords().get(i).getUsername());
+//                        dataProfileBackground.add(result.getData().getRecords().get(i)
 //                                .getProfileBackground());
 //
 //                        initiateRecyclerView();
@@ -75,10 +79,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
                 @Override
-                public void onFailure(Call<VinePOJO.Data> call, Throwable t) {
+                public void onFailure(Call<Data> call, Throwable t) {
                     Log.d("call:fail ", "retrofit fail: " + t.toString());
                 }
-
     });
 
     }

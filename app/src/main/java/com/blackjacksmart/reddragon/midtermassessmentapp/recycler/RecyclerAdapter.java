@@ -21,11 +21,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        ((ViewHolder) holder).bind();
+//        ((ViewHolder) holder).bind(((Data)
+//               dataRecords.get(position)), position);
     }
 
     @Override
     public int getItemCount() {
         return 10;
-    }
+    } // should be retrofitData.size()
 }

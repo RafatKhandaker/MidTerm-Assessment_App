@@ -1,6 +1,6 @@
 package com.blackjacksmart.reddragon.midtermassessmentapp.network;
 
-import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.VinePOJO;
+import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.Data;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -12,7 +12,7 @@ import retrofit2.http.GET;
 public interface VineService {
 
     @GET("users/918753190470619136")
-    Call<VinePOJO.Data> getVineJSON();
+    Call<Data> getVineJSON();
 
 
 }
