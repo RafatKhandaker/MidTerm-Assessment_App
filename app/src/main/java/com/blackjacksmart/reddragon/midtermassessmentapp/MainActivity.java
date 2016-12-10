@@ -63,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     Data result = response.body();
                     Log.d("ON RESPONSE: ", "" + result.getCount());
                     Log.d("ON RESPONSE: ", "" +result.getSize());
+//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getUsername());
+//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getProfileBackground());
+//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getLiked());
+
+
 
 //                    dataRecords = (List<Data>) result;
 
