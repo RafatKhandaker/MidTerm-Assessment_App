@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import com.blackjacksmart.reddragon.midtermassessmentapp.R;
 
+import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataLiked;
+
 /**
  * Created by RedDragon on 12/10/16.
  */
@@ -21,12 +23,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-//        ((ViewHolder) holder).bind(((Data)
-//               dataRecords.get(position)), position);
+        ((ViewHolder) holder).bind(position);
     }
 
     @Override
     public int getItemCount() {
-        return 10;
-    } // should be retrofitData.size()
+        return dataLiked.size();
+    }
 }

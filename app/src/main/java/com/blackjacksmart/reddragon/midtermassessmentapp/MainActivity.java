@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+//-------------------------------Retrofit Call------------------------------------------------------
+
     public void initiateRetrofit() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://vine.co/api/timelines/")

@@ -7,10 +7,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.blackjacksmart.reddragon.midtermassessmentapp.R;
-import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.Data;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataLiked;
+import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataUsername;
 
 /**
  * Created by RedDragon on 12/10/16.
@@ -27,11 +29,11 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         ButterKnife.bind(this, itemView);
     }
 
-    public void bind(Data data , int i ){
+    public void bind(int i ){
 
-//        likedTextView.setText(data);
-//        userTextView.setText(dataLiked.get(i));
-//        vinesCardView.setBackground(data.getRecords().get(i).getProfileBackground());
+        likedTextView.setText(dataLiked.get(i).toString());
+        userTextView.setText(dataUsername.get(i).toString());
+//        vinesCardView.setBackground();
     }
 
 
