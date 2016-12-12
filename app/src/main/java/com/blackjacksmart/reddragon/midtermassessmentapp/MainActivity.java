@@ -70,14 +70,6 @@ public class MainActivity extends AppCompatActivity {
                 if (response.isSuccessful()) {
                     VinePOJO result = response.body();
 
-                    Log.d("ON RESPONSE: ", "" + result.getData().getCount());
-                    Log.d("ON RESPONSE: ", "" +result.getData().getSize());
-                    Log.d("ON RESPONSE: ", "" +result.getData().getRecords().size());
-
-                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getUsername());
-                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getProfileBackground());
-                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getLiked());
-
                     for (int i = 0; i < result.getData().getRecords().size(); i++) {
                         Long liked = result.getData().getRecords().get(i).getLiked();
                         String username = result.getData().getRecords().get(i).getUsername();
@@ -88,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
                         dataProfileBackground.add(background);
 
                     }
-
-                    System.out.println("Pass point retrofit: ");
 
                     initiateRecyclerView();
                 }
