@@ -28,6 +28,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
 
     @Override
     public int getItemCount() {
-        return dataLiked.size();
+        return dataLiked.size()-1;
     }
 }

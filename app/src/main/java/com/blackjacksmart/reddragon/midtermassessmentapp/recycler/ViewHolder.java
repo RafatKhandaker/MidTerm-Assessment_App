@@ -1,5 +1,6 @@
 package com.blackjacksmart.reddragon.midtermassessmentapp.recycler;
 
+import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -21,35 +22,40 @@ import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dat
 
 public class ViewHolder extends RecyclerView.ViewHolder {
 
-    @Nullable @BindView(R.id.liked_textview) TextView likedTextView;
-    @Nullable @BindView(R.id.username_textview) TextView userTextView;
-    @Nullable @BindView(R.id.vines_card_view) CardView vinesCardView;
+    @Nullable
+    @BindView(R.id.liked_textview)
+    TextView likedTextView;
+    @Nullable
+    @BindView(R.id.username_textview)
+    TextView userTextView;
+    @Nullable
+    @BindView(R.id.vines_card_view)
+    CardView vinesCardView;
 
     public ViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
     }
 
-    public void bind(int i ){
+    public void bind(int i) {
 
-        // testing values.. found null values
+        if (!dataLiked.get(i).equals(null)) {
+            likedTextView.setText(dataLiked.get(i).toString());
+        }
 
-        likedTextView.setText(dataLiked.get(i).toString());
-        userTextView.setText(dataUsername.get(i).toString());
+        if (!dataUsername.get(i).equals(null)) {
+            userTextView.setText(dataUsername.get(i).toString());
+        }
 
-        System.out.println(dataProfileBackground.get(0));
-        System.out.println(dataProfileBackground.get(1));
-        System.out.println(dataProfileBackground.get(2));
-        System.out.println(dataProfileBackground.get(3));
-        System.out.println(dataProfileBackground.get(4));
-        System.out.println(dataProfileBackground.get(5));
-        System.out.println(dataProfileBackground.get(6));
-        System.out.println(dataProfileBackground.get(7));
-        System.out.println(dataProfileBackground.get(8));
+        if (!dataProfileBackground.get(i).equals(null)) {
+            int stringLength = dataProfileBackground.get(i).toString().length();
 
+//            System.out.println(dataProfileBackground.get(i).toString().substring(2, stringLength));
+            vinesCardView.setCardBackgroundColor(Color.parseColor("#" +
+                    dataProfileBackground.get(i).toString().substring(2, stringLength)));
+        }else {
+            vinesCardView.setCardBackgroundColor(Color.parseColor("#000000"));
+        }
 
-//        vinesCardView.setCardBackgroundColor(dataProfileBackground.get(i));
     }
-
-
 }
