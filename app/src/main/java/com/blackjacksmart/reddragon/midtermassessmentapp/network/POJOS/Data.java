@@ -11,9 +11,10 @@ import java.util.List;
 
 public class Data {
 
+
     @SerializedName("count")
     @Expose
-    private long count;
+    private Long count;
     @SerializedName("anchorStr")
     @Expose
     private String anchorStr;
@@ -28,18 +29,18 @@ public class Data {
     private String backAnchor;
     @SerializedName("anchor")
     @Expose
-    private long anchor;
+    private Long anchor;
     @SerializedName("nextPage")
     @Expose
-    private long nextPage;
+    private Long nextPage;
     @SerializedName("size")
     @Expose
-    private long size;
+    private Long size;
 
     /**
      * @return The count
      */
-    public long getCount() {
+    public Long getCount() {
         return count;
     }
 
@@ -109,7 +110,7 @@ public class Data {
     /**
      * @return The anchor
      */
-    public long getAnchor() {
+    public Long getAnchor() {
         return anchor;
     }
 
@@ -123,7 +124,7 @@ public class Data {
     /**
      * @return The nextPage
      */
-    public long getNextPage() {
+    public Long getNextPage() {
         return nextPage;
     }
 
@@ -137,7 +138,7 @@ public class Data {
     /**
      * @return The size
      */
-    public long getSize() {
+    public Long getSize() {
         return size;
     }
 

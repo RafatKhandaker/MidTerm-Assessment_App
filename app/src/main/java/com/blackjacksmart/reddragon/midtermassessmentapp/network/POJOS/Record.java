@@ -13,7 +13,7 @@ public class Record {
 
     @SerializedName("liked")
     @Expose
-    private long liked;
+    private Long liked;
     @SerializedName("videoDashUrl")
     @Expose
     private String videoDashUrl;
@@ -22,13 +22,13 @@ public class Record {
     private String foursquareVenueId;
     @SerializedName("remixDisabled")
     @Expose
-    private long remixDisabled;
+    private Long remixDisabled;
     @SerializedName("userId")
     @Expose
-    private long userId;
+    private Long userId;
     @SerializedName("private")
     @Expose
-    private long _private;
+    private Long _private;
     @SerializedName("videoWebmUrl")
     @Expose
     private Object videoWebmUrl;
@@ -37,10 +37,10 @@ public class Record {
     private String thumbnailUrl;
     @SerializedName("explicitContent")
     @Expose
-    private long explicitContent;
+    private Long explicitContent;
     @SerializedName("verified")
     @Expose
-    private long verified;
+    private Long verified;
     @SerializedName("avatarUrl")
     @Expose
     private String avatarUrl;
@@ -55,7 +55,7 @@ public class Record {
     private List<String> vanityUrls = null;
     @SerializedName("blocked")
     @Expose
-    private long blocked;
+    private Long blocked;
     @SerializedName("username")
     @Expose
     private String username;
@@ -70,10 +70,10 @@ public class Record {
     private String permalinkUrl;
     @SerializedName("promoted")
     @Expose
-    private long promoted;
+    private Long promoted;
     @SerializedName("postId")
     @Expose
-    private long postId;
+    private Long postId;
     @SerializedName("profileBackground")
     @Expose
     private String profileBackground;
@@ -82,25 +82,25 @@ public class Record {
     private String videoUrl;
     @SerializedName("followRequested")
     @Expose
-    private long followRequested;
+    private Long followRequested;
     @SerializedName("created")
     @Expose
     private String created;
     @SerializedName("hasSimilarPosts")
     @Expose
-    private long hasSimilarPosts;
+    private Long hasSimilarPosts;
     @SerializedName("shareUrl")
     @Expose
     private String shareUrl;
     @SerializedName("myRepostId")
     @Expose
-    private long myRepostId;
+    private Long myRepostId;
     @SerializedName("following")
     @Expose
-    private long following;
+    private Long following;
     @SerializedName("hasRemixes")
     @Expose
-    private long hasRemixes;
+    private Long hasRemixes;
     @SerializedName("venueCategoryId")
     @Expose
     private String venueCategoryId;
@@ -129,7 +129,7 @@ public class Record {
     /**
      * @return The liked
      */
-    public long getLiked() {
+    public Long getLiked() {
         return liked;
     }
 
@@ -171,7 +171,7 @@ public class Record {
     /**
      * @return The remixDisabled
      */
-    public long getRemixDisabled() {
+    public Long getRemixDisabled() {
         return remixDisabled;
     }
 
@@ -185,7 +185,7 @@ public class Record {
     /**
      * @return The userId
      */
-    public long getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
@@ -199,7 +199,7 @@ public class Record {
     /**
      * @return The _private
      */
-    public long getPrivate() {
+    public Long getPrivate() {
         return _private;
     }
 
@@ -243,7 +243,7 @@ public class Record {
     /**
      * @return The explicitContent
      */
-    public long getExplicitContent() {
+    public Long getExplicitContent() {
         return explicitContent;
     }
 
@@ -257,7 +257,7 @@ public class Record {
     /**
      * @return The verified
      */
-    public long getVerified() {
+    public Long getVerified() {
         return verified;
     }
 
@@ -327,7 +327,7 @@ public class Record {
     /**
      * @return The blocked
      */
-    public long getBlocked() {
+    public Long getBlocked() {
         return blocked;
     }
 
@@ -397,7 +397,7 @@ public class Record {
     /**
      * @return The promoted
      */
-    public long getPromoted() {
+    public Long getPromoted() {
         return promoted;
     }
 
@@ -411,7 +411,7 @@ public class Record {
     /**
      * @return The postId
      */
-    public long getPostId() {
+    public Long getPostId() {
         return postId;
     }
 
@@ -453,7 +453,7 @@ public class Record {
     /**
      * @return The followRequested
      */
-    public long getFollowRequested() {
+    public Long getFollowRequested() {
         return followRequested;
     }
 
@@ -481,7 +481,7 @@ public class Record {
     /**
      * @return The hasSimilarPosts
      */
-    public long getHasSimilarPosts() {
+    public Long getHasSimilarPosts() {
         return hasSimilarPosts;
     }
 
@@ -509,7 +509,7 @@ public class Record {
     /**
      * @return The myRepostId
      */
-    public long getMyRepostId() {
+    public Long getMyRepostId() {
         return myRepostId;
     }
 
@@ -523,7 +523,7 @@ public class Record {
     /**
      * @return The following
      */
-    public long getFollowing() {
+    public Long getFollowing() {
         return following;
     }
 
@@ -537,7 +537,7 @@ public class Record {
     /**
      * @return The hasRemixes
      */
-    public long getHasRemixes() {
+    public Long getHasRemixes() {
         return hasRemixes;
     }
 

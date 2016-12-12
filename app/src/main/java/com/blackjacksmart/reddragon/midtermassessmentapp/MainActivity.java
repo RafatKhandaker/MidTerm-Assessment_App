@@ -6,10 +6,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.Data;
+import com.blackjacksmart.reddragon.midtermassessmentapp.network.POJOS.VinePOJO;
 import com.blackjacksmart.reddragon.midtermassessmentapp.network.VineService;
 import com.blackjacksmart.reddragon.midtermassessmentapp.recycler.RecyclerAdapter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -20,8 +21,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /** Rafat Khandaker     12/10/2016
  *
- *           My set up is correct, except my JSON data is not parsing, recieving zero list size.. I
- *           Believe it's because the server is storing the json as a text file format
+ *           My set up is correct, Bug was fixed... POJO error because data type Long was not preset
+ *           on JSON converter
  * **/
 
 public class MainActivity extends AppCompatActivity {
@@ -30,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     RecyclerView.Adapter adapter;
 
-    public static List<Data> dataRecords;
-    public static List<Object> dataLiked;
+    public static List<VinePOJO> dataRecords;
+    public static List<Object> dataLiked = new ArrayList<>();
     public static List<Object> dataUsername;
     public static List<Object> dataProfileBackground;
 
@@ -60,43 +61,76 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         VineService service = retrofit.create(VineService.class);
-        Call<Data> getService = service.getVineJSON();
+        Call<VinePOJO> getService = service.getVinePOJOJSON();
 
-        getService.enqueue(new Callback<Data>() {
+        getService.enqueue(new Callback<VinePOJO>() {
             @Override
-            public void onResponse(Call<Data> call, Response<Data> response) {
+            public void onResponse(Call<VinePOJO> call, Response<VinePOJO> response) {
                 if (response.isSuccessful()) {
-                    Data result = response.body();
-                    Log.d("ON RESPONSE: ", "" + result.getCount());
-                    Log.d("ON RESPONSE: ", "" +result.getSize());
+                    VinePOJO result = response.body();
+
+                    Log.d("ON RESPONSE: ", "" + result.getData().getCount());
+                    Log.d("ON RESPONSE: ", "" +result.getData().getSize());
+                    Log.d("ON RESPONSE: ", "" +result.getData().getRecords().size());
+
+                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getUsername());
+                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getProfileBackground());
+                    Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getLiked());
+
+                    for (int i = 0; i < result.getData().getRecords().size(); i++) {
+
+                        System.out.println("count number: " + result.getData().getRecords().get(i).getLiked() + " " +
+                            result.getData().getRecords().size());
+                        Long valueLiked =result.getData().getRecords().get(i).getLiked();
+                        dataLiked.add(valueLiked);
+                        System.out.println("data liked number: " +dataLiked.get(i));
+
+                    }
+
+                    System.out.println("data liked result: " +result.getData().getRecords().get(0).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(1).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(2).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(3).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(4).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(5).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(6).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(7).getUsername());
+                    System.out.println("data liked result: " +result.getData().getRecords().get(8).getUsername());
 
 
-//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getUsername());
-//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getProfileBackground());
-//                    Log.d("ON RESPONSE" , "" +result.getRecords().get(0).getLiked());
+                    System.out.println("data liked in data: " +dataLiked.get(0));
+                    System.out.println("data liked in data: " +dataLiked.get(1));
+                    System.out.println("data liked in data: " +dataLiked.get(2));
+                    System.out.println("data liked in data: " +dataLiked.get(3));
+                    System.out.println("data liked in data: " +dataLiked.get(4));
+                    System.out.println("data liked in data: " +dataLiked.get(5));
+                    System.out.println("data liked in data: " +dataLiked.get(6));
+                    System.out.println("data liked in data: " +dataLiked.get(7));
+                    System.out.println("data liked in data: " +dataLiked.get(8));
 
 
-//                    dataRecords = (List<Data>) result;
 
-//                    for (int i = 0; i < records.size(); i++) {
-//                        dataLiked.add(result.getRecords().get(i).getLiked());
-//                        dataUsername.add(result.getRecords().get(i).getUsername());
-//                        dataProfileBackground.add(result.getData().getRecords().get(i)
-//                                .getProfileBackground());
-//
-//                        initiateRecyclerView();
+
+//                    for (int i = 0; i < result.getData().getRecords().size(); i++) {
 //
 //                    }
-                    initiateRecyclerView();
-                }
+//                        dataUsername.add(result.getData().getRecords().get(i).getUsername());
+//                        dataProfileBackground.add(result.getData().getRecords().get(i)
+//                                .getProfileBackground());
+
+                        initiateRecyclerView();
+
+                    }
+//                    initiateRecyclerView();
             }
                 @Override
-                public void onFailure(Call<Data> call, Throwable t) {
+                public void onFailure(Call<VinePOJO> call, Throwable t) {
                     Log.d("call:fail ", "retrofit fail: " + t.toString());
                 }
     });
 
     }
+
 }
 
 
