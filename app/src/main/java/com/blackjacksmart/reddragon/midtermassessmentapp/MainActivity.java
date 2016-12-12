@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
     public static List<VinePOJO> dataRecords;
     public static List<Object> dataLiked = new ArrayList<>();
-    public static List<Object> dataUsername;
-    public static List<Object> dataProfileBackground;
+    public static List<Object> dataUsername = new ArrayList<>();
+    public static List<Object> dataProfileBackground = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,12 +78,13 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("ON RESPONSE" , "" +result.getData().getRecords().get(0).getLiked());
 
                     for (int i = 0; i < result.getData().getRecords().size(); i++) {
+                        Long liked = result.getData().getRecords().get(i).getLiked();
+                        String username = result.getData().getRecords().get(i).getUsername();
+                        String background = result.getData().getRecords().get(i).getProfileBackground();
 
-                        System.out.println("count number: " + result.getData().getRecords().get(i).getLiked() + " " +
-                            result.getData().getRecords().size());
-                        Long valueLiked =result.getData().getRecords().get(i).getLiked();
-                        dataLiked.add(valueLiked);
-                        System.out.println("data liked number: " +dataLiked.get(i));
+                        dataLiked.add(liked);
+                        dataUsername.add(username);
+                        dataProfileBackground.add(background);
 
                     }
 
@@ -98,30 +99,19 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("data liked result: " +result.getData().getRecords().get(8).getUsername());
 
 
-                    System.out.println("data liked in data: " +dataLiked.get(0));
-                    System.out.println("data liked in data: " +dataLiked.get(1));
-                    System.out.println("data liked in data: " +dataLiked.get(2));
-                    System.out.println("data liked in data: " +dataLiked.get(3));
-                    System.out.println("data liked in data: " +dataLiked.get(4));
-                    System.out.println("data liked in data: " +dataLiked.get(5));
-                    System.out.println("data liked in data: " +dataLiked.get(6));
-                    System.out.println("data liked in data: " +dataLiked.get(7));
-                    System.out.println("data liked in data: " +dataLiked.get(8));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(0));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(1));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(2));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(3));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(4));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(5));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(6));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(7));
+                    System.out.println("data liked in data: " +dataProfileBackground.get(8));
 
+                    initiateRecyclerView();
+                }
 
-
-
-//                    for (int i = 0; i < result.getData().getRecords().size(); i++) {
-//
-//                    }
-//                        dataUsername.add(result.getData().getRecords().get(i).getUsername());
-//                        dataProfileBackground.add(result.getData().getRecords().get(i)
-//                                .getProfileBackground());
-
-                        initiateRecyclerView();
-
-                    }
-//                    initiateRecyclerView();
             }
                 @Override
                 public void onFailure(Call<VinePOJO> call, Throwable t) {
