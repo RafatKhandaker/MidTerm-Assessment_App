@@ -22,15 +22,9 @@ import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dat
 
 public class ViewHolder extends RecyclerView.ViewHolder {
 
-    @Nullable
-    @BindView(R.id.liked_textview)
-    TextView likedTextView;
-    @Nullable
-    @BindView(R.id.username_textview)
-    TextView userTextView;
-    @Nullable
-    @BindView(R.id.vines_card_view)
-    CardView vinesCardView;
+    @Nullable @BindView(R.id.liked_textview) TextView likedTextView;
+    @Nullable @BindView(R.id.username_textview) TextView userTextView;
+    @Nullable @BindView(R.id.vines_card_view) CardView vinesCardView;
 
     public ViewHolder(View itemView) {
         super(itemView);
@@ -50,7 +44,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         if (!dataProfileBackground.get(i).equals(null)) {
             int stringLength = dataProfileBackground.get(i).toString().length();
 
-//            System.out.println(dataProfileBackground.get(i).toString().substring(2, stringLength));
             vinesCardView.setCardBackgroundColor(Color.parseColor("#" +
                     dataProfileBackground.get(i).toString().substring(2, stringLength)));
         }else {

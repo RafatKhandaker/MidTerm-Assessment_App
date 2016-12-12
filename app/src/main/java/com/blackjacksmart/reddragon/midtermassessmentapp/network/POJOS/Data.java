@@ -11,7 +11,6 @@ import java.util.List;
 
 public class Data {
 
-
     @SerializedName("count")
     @Expose
     private Long count;
