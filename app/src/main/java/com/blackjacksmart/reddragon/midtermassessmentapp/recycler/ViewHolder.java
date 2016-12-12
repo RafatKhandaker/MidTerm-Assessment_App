@@ -12,6 +12,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataLiked;
+import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataProfileBackground;
 import static com.blackjacksmart.reddragon.midtermassessmentapp.MainActivity.dataUsername;
 
 /**
@@ -31,9 +32,23 @@ public class ViewHolder extends RecyclerView.ViewHolder {
 
     public void bind(int i ){
 
+        // testing values.. found null values
+
         likedTextView.setText(dataLiked.get(i).toString());
         userTextView.setText(dataUsername.get(i).toString());
-//        vinesCardView.setBackground();
+
+        System.out.println(dataProfileBackground.get(0));
+        System.out.println(dataProfileBackground.get(1));
+        System.out.println(dataProfileBackground.get(2));
+        System.out.println(dataProfileBackground.get(3));
+        System.out.println(dataProfileBackground.get(4));
+        System.out.println(dataProfileBackground.get(5));
+        System.out.println(dataProfileBackground.get(6));
+        System.out.println(dataProfileBackground.get(7));
+        System.out.println(dataProfileBackground.get(8));
+
+
+//        vinesCardView.setCardBackgroundColor(dataProfileBackground.get(i));
     }
 
 

@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
     RecyclerView.Adapter adapter;
 
-    public static List<VinePOJO> dataRecords;
     public static List<Object> dataLiked = new ArrayList<>();
     public static List<Object> dataUsername = new ArrayList<>();
     public static List<Object> dataProfileBackground = new ArrayList<>();
@@ -90,26 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }
 
-                    System.out.println("data liked result: " +result.getData().getRecords().get(0).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(1).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(2).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(3).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(4).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(5).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(6).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(7).getUsername());
-                    System.out.println("data liked result: " +result.getData().getRecords().get(8).getUsername());
-
-
-                    System.out.println("data liked in data: " +dataProfileBackground.get(0));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(1));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(2));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(3));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(4));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(5));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(6));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(7));
-                    System.out.println("data liked in data: " +dataProfileBackground.get(8));
+                    System.out.println("Pass point retrofit: ");
 
                     initiateRecyclerView();
                 }
